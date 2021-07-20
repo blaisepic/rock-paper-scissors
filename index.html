@@ -1,7 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <body>
+        <div class="container">
+            <div class="half" id="top-quad">
+                <h3>Player wins</h3>
+                <h3>Ties</h3>
+                <h3>Computer wins</h3>
+            </div>
 
+            <div class="half" id="scores">
+
+            </div>
+                
+            <div class="half" id="mid-quad">
+                <button id="rock" class="btn"><strong>Rock</strong></button>
+                <button id="paper" class="btn"><strong>Paper</strong></button>
+                <button id="scissors" class="btn"><strong>Scissors</strong></button>
+            </div>
+
+            <div class="half" id="bot-quad">
+                <button class="btn" id="playRound"><strong>Play a Round</strong></button>
+            </div>
+        </div>
     </body>
 </html>
+
+<!--
+style TODO: 
+1. change hover state
+2. change .transform
+
+html TODO: 
+1. maybe change positions a little bit.. maybe
+2. include playerScore etc. on page underneath the right blocks
+
+js TODO: 
+1. include playerScore etc. on page underneath the right blocks
+2. find a way to get the page to watch both playerScore and computerScore and *react* (reset) when either of them hits five 
+
+-->>
